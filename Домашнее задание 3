@@ -1,4 +1,5 @@
 Задача 1
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -18,3 +19,15 @@ int main() {
 }
 
 Задача 2
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   int N, M, Res;
+   cin >> N >> M;
+   Res = (M - 1) % N + 1;
+   
+   cout << Res << endl;
+   
+}
