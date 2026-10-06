@@ -1,0 +1,20 @@
+Задача 1
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+   int TDigNum, Num1, Num2, Num3, Res1, Res2;
+   cin >> TDigNum;
+   Num1 = TDigNum / 100;
+   Num2 = TDigNum / 10 % 10;
+   Num3 = TDigNum % 10;
+   Res1 = Num1 * Num2;
+   Res2 = Num2 * Num3;
+   cout << Num1 << endl;
+   cout << Num2 << endl;
+   cout << Num3 << endl;
+   cout << Res1 << Res2;
+
+}
+
+Задача 2
